@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id ="try" layoutX="126.0" layoutY="304.0" mnemonicParsing="false" text="ㅇㅇ해드림" />
+      <Button fx:id ="gg" layoutX="408.0" layoutY="304.0" mnemonicParsing="false" text="수고링" />
+      <ImageView fitHeight="221.0" fitWidth="369.0" layoutX="126.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/gg_1.gif" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

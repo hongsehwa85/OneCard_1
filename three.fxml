@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="1066.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+   <children>
+      <TextField layoutX="350.0" layoutY="234.0" prefHeight="131.0" prefWidth="141.0" />
+      <TextField layoutX="447.0" layoutY="466.0" prefHeight="44.0" prefWidth="152.0" />
+      <Button fx:id="btn1" layoutX="649.0" layoutY="498.0" mnemonicParsing="false" text="Go" />
+      <TextField layoutX="553.0" layoutY="234.0" prefHeight="131.0" prefWidth="141.0" />
+      <TextField layoutX="411.0" layoutY="34.0" prefHeight="154.0" prefWidth="245.0" />
+      <TextField layoutX="796.0" layoutY="212.0" prefHeight="154.0" prefWidth="245.0" />
+       <Button fx:id="gg" layoutX="1131.0" layoutY="727.0" mnemonicParsing="false" prefHeight="109.0" prefWidth="188.0" text="GG ㅜㅜ"/>
+   
+   </children>
+</Pane>

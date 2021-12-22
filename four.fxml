@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1400" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Main">
+	<children>
+		<TextField layoutX="732.0" layoutY="576.0" prefHeight="44.0" prefWidth="152.0" />
+		<Button fx:id="btn1" layoutX="997.0" layoutY="629.0" mnemonicParsing="false" text="Go" />
+		<TextField layoutX="676.0" layoutY="325.0" prefHeight="131.0" prefWidth="141.0" />
+		<TextField layoutX="709.0" layoutY="41.0" prefHeight="154.0" prefWidth="245.0" />
+		<TextField layoutX="860.0" layoutY="304.0" prefHeight="154.0" prefWidth="245.0" />
+		<TextField layoutX="193.0" layoutY="306.0" prefHeight="150.0" prefWidth="217.0" />
+      <Button fx:id="gg" layoutX="1131.0" layoutY="727.0" mnemonicParsing="false" prefHeight="109.0" prefWidth="188.0" text="GG ㅜㅜ">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="profile" fitHeight="150.0" fitWidth="200.0" layoutX="444.0" layoutY="516.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+         
+         	<Image url="@../../image/temp.jpg" />
+         </image>
+      
+      </ImageView>
+      <Label layoutX="520.0" layoutY="697.0" text="Label" />
+      <ImageView fitHeight="196.0" fitWidth="200.0" layoutX="1131.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/com1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="459.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/com2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="42.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/com3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Deck" fitHeight="150.0" fitWidth="200.0" layoutX="499.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../image/back.png" />
+         </image>
+      </ImageView>
+	</children>
+</Pane>
